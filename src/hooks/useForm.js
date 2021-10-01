@@ -8,8 +8,7 @@ const useForm = (initialValue) => {
     const handleChanges = (e) => {
         setValues({
             ...values,
-            [e.target.name]: e.target.value
-        });
+            [e.target.name]: e.target.value });
     };
 
     const handleSubmit = (e) => {
@@ -20,4 +19,4 @@ const useForm = (initialValue) => {
     return [showSuccessMessage, values, handleChanges, handleSubmit]
 }
 
-export default useForm;
+export default useForm

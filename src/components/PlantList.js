@@ -17,12 +17,16 @@ export default class PlantList extends Component {
         this.setState({
           ...this.state,
           plants: res.data
-        });
+        })
       })
       .catch(err => {
-        debugger
+        console.log(err)
       })
   }
+
+  // componentDidUpdate(){
+  //   console.log('Component updated!');
+  // };
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
   render() {

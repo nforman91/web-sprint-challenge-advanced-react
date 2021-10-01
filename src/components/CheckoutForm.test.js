@@ -1,5 +1,5 @@
 import React from "react";
-// import MutationObserver from 'mutationobserver-shim';
+import MutationObserver from 'mutationobserver-shim';
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import CheckoutForm from "./CheckoutForm";
@@ -29,5 +29,5 @@ test("shows success message on submit with form details", async () => {
     await waitFor(() => {
         const checkoutMessage = screen.queryByTestId('successMessage');
         expect(checkoutMessage).toBeInTheDocument();
-    })
+    });
 });
