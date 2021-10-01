@@ -3,7 +3,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a stateful and a functional component?
 
-Stateful components: have state, use logic
+Stateful components: have state & logic
 Functional components: print what is passed down via props, accept data to display
 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?

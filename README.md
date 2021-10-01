@@ -45,8 +45,8 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 ### Test the Checkout Form
 * [x] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
 * [x] Fill out code necessary to test that that Checkout form renders without errors.
-* [ ] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
-* [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
+* [x] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
+* [x] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
 
 ## Important Notes
 * Again, unlike other projects, the local server used here can not be accessed through the browser. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.
@@ -78,7 +78,7 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 
 ## Submission format
 
-* [ ] Submit via Codegrade by commiting and pushing any new changes to **your main branch.**
+* [x] Submit via Codegrade by commiting and pushing any new changes to **your main branch.**
 * [ ] Check Codegrade before the deadline to compare its results against your local tests.
 * [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
 * [ ] New commits will be evaluated by Codegrade if pushed before the sprint challenge deadline.
